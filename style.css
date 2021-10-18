@@ -43,3 +43,33 @@ h1{
 .drem-part img{
     width: 100%;;
 }
+#xp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5%;
+}
+.xp-part{
+    display: flex;
+}
+.xp-part h3{
+    color: orange;
+}
+.xp-part div{
+  box-shadow: 5px 7px 40px rgb(219, 164, 96);
+  height: 80%;
+  margin: 15px;
+}
+.full-stack{
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg,rgb(117, 117, 235),#ffff00c5);
+    border-image-slice: 1;
+    padding: 10px;
+
+}
+.happy-web{
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg,blue,rgb(255, 0, 85));
+    border-image-slice: 1;  
+    padding: 10px;
+}
